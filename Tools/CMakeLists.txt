@@ -24,7 +24,7 @@ elseif ("${PORT}" STREQUAL "JSCOnly")
         add_subdirectory(TestWebKitAPI)
     endif ()
 elseif ("${PORT}" STREQUAL "WPE")
-#espial modify :add Tools/wpe/example dir files and enable build for launcher
+#Espial modify :add Tools/wpe/example dir files and enable build for launcher
     add_subdirectory(wpe/examples/launcher)
     if (WPE_MESA_EXPORTABLE_DMA_BUF)
         if (DEVELOPER_MODE)
