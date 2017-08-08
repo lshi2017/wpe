@@ -28,7 +28,7 @@ To do this quickly under **Ubuntu 16.04 LTS (Xenial Xerus)**, please type:
     $ export XDG_RUNTIME_DIR=/tmp
     $ weston
 
-Then, to run WPEWebKit:
+ Then, to run WPEWebKit:
 
     $ export WPE_BACKEND=wayland
     $ Tools/Scripts/run-wpe
